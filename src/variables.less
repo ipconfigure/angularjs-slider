@@ -4,6 +4,14 @@
   border-radius: @radius;
 }
 
+.translate(@x: 0, @y: 0) {
+  -webkit-transform: translate(@x, @y);
+  -moz-transform: translate(@x, @y);
+  -o-transform: translate(@x, @y);
+  -ms-transform: translate(@x, @y);
+  transform: translate(@x, @y);
+}
+
 @handleActiveColor: #451aff;
 @handleHoverColor: #fff;
 @labelTextColor: #55637d;
